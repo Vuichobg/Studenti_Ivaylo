@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C6B54B0C-9C52-41E7-A1A7-6E87D714A9D3}" SchemaVersion="85">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{C6B54B0C-9C52-41E7-A1A7-6E87D714A9D3}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="ivaylo" ID="{F17A8EDB-DE44-4788-BA1C-02373990A959}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

@@ -1,0 +1,35 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2219227717	Time_of_The_Day			\Default Work Unit\ivaylo\Time_of_The_Day	
+
+Switch	ID	Name	Switch Group			Notes
+	311764537	Day	Time_of_The_Day			
+	390531879	Afternoon	Time_of_The_Day			
+	1011622525	night	Time_of_The_Day			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2219227717	time_of_The_Day			\Default Work Unit\ivaylo\time_of_The_Day	
+
+State	ID	Name	State Group			Notes
+	0	None	time_of_The_Day			
+	311764537	day	time_of_The_Day			
+	390531879	Afternoon	time_of_The_Day			
+	1011622525	night	time_of_The_Day			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	85412153	Ambience			\Default Work Unit\Master Audio Bus\Ambience	
+	247557814	Foley			\Default Work Unit\Master Audio Bus\Foley	
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	877642339	cinematics			\Default Work Unit\Master Audio Bus\music\cinematics	
+	1064933109	Ono			\Default Work Unit\Master Audio Bus\VO\Ono	
+	1132214669	interior			\Default Work Unit\Master Audio Bus\Ambience\interior	
+	1534528548	VO			\Default Work Unit\Master Audio Bus\VO	
+	2213992659	Exterior			\Default Work Unit\Master Audio Bus\Ambience\Exterior	
+	2967546505	in_game			\Default Work Unit\Master Audio Bus\music\in_game	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	music			\Default Work Unit\Master Audio Bus\music	
+	4236861272	Dialogs			\Default Work Unit\Master Audio Bus\VO\Dialogs	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

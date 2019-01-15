@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7D654A74-1002-4D7A-8A1A-98D41444DDAF}" SchemaVersion="85">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{7D654A74-1002-4D7A-8A1A-98D41444DDAF}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{503607E6-200F-44D8-A1ED-331D5CC66F65}" WorkUnitID="{6E6E9D34-A334-488D-AE5B-A0A804CFBEDA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="SFX" ID="{D3DC5EBC-3F61-4D3D-A22B-CE8C2BD80F80}"/>
+						<Bus Name="Ambience" ID="{D2E1D9F5-5087-49DD-9839-FC5DF1844CB6}">
+							<ChildrenList>
+								<Bus Name="Exterior" ID="{C2E91061-FB0B-45B2-969D-B5430EC0D869}"/>
+								<Bus Name="interior" ID="{2E198396-FE60-4931-B423-502BE6601694}"/>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="VO" ID="{B32BC957-BE79-414C-81CF-3021BB183D0D}">
+							<ChildrenList>
+								<Bus Name="Ono" ID="{2083B576-7728-448D-AF9F-E229D201576D}"/>
+								<Bus Name="Dialogs" ID="{3FD95BBB-75C8-4340-8A26-D46A8B221EF0}"/>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="music" ID="{66C07A27-A247-4BC2-94F5-A3CF11EAF96A}">
+							<ChildrenList>
+								<Bus Name="in_game" ID="{B7BD6AB0-355D-4CD6-8A03-675847EC22D1}"/>
+								<Bus Name="cinematics" ID="{8A6FFAB0-4551-4037-A7FC-01FD5151A566}"/>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="Foley" ID="{80FDC8AF-3AB1-4174-B02A-E3DE5582DD64}"/>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

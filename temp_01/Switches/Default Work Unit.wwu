@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5FECEFEB-51BC-4EEB-B129-FE01EBCA614D}" SchemaVersion="85">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{5FECEFEB-51BC-4EEB-B129-FE01EBCA614D}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="ivaylo" ID="{78F2F597-5AF7-4C34-A7E3-CD5936C3EBB7}" PersistMode="Reference"/>
+				<WorkUnit Name="tereza" ID="{30BE0CB7-A369-410C-B36B-1BB8A1A44F25}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

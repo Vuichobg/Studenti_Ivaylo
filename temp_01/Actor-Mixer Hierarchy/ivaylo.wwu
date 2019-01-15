@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{44BF66FB-EFBF-4024-BC1C-715055A775E2}" SchemaVersion="85" RootDocumentID="{51D8CED3-239E-479E-A24A-90855E929506}">
+	<AudioObjects>
+		<WorkUnit Name="ivaylo" ID="{44BF66FB-EFBF-4024-BC1C-715055A775E2}" OwnerID="{51D8CED3-239E-479E-A24A-90855E929506}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="SFXs" ID="{0A3F4BDA-7A16-4EF7-A4B2-95BAF3092D8F}" ShortID="22013312">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A3857036-C4D7-4906-816B-1333ECCD92DC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D654A74-1002-4D7A-8A1A-98D41444DDAF}"/>
+						</Reference>
+					</ReferenceList>
+				</ActorMixer>
+				<ActorMixer Name="Ambience" ID="{1A737A67-0F4E-4B4A-BD54-E1DAD3E19A6A}" ShortID="427301652">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A3857036-C4D7-4906-816B-1333ECCD92DC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Ambience" ID="{D2E1D9F5-5087-49DD-9839-FC5DF1844CB6}" WorkUnitID="{7D654A74-1002-4D7A-8A1A-98D41444DDAF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="Exterior" ID="{C885960E-4525-4C1B-B49A-E93BD5FA576B}" ShortID="807156965">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A3857036-C4D7-4906-816B-1333ECCD92DC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Exterior" ID="{C2E91061-FB0B-45B2-969D-B5430EC0D869}" WorkUnitID="{7D654A74-1002-4D7A-8A1A-98D41444DDAF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SwitchContainer Name="AMB_Sofia" ID="{BAC2B403-77BE-41B8-81DD-67E331D9F958}" ShortID="884576155">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A3857036-C4D7-4906-816B-1333ECCD92DC}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="night" ID="{DE01B5A2-EEDA-4D37-86EE-992E4BDC69DA}" WorkUnitID="{78F2F597-5AF7-4C34-A7E3-CD5936C3EBB7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D654A74-1002-4D7A-8A1A-98D41444DDAF}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Time_of_The_Day" ID="{49594727-DFEF-4559-BCC4-CF0575BA9457}" WorkUnitID="{78F2F597-5AF7-4C34-A7E3-CD5936C3EBB7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Day" ID="{51819C18-497F-40DF-BDAB-9C010BAE75CE}" ShortID="368301792">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A3857036-C4D7-4906-816B-1333ECCD92DC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D654A74-1002-4D7A-8A1A-98D41444DDAF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Day" ID="{28A68AF3-A6C1-4E73-908A-7B6D99872CEC}" ShortID="615132054">
+													<Language>SFX</Language>
+													<AudioFile>Day.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Day" ID="{28A68AF3-A6C1-4E73-908A-7B6D99872CEC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Night" ID="{EEB79742-122E-4074-9C50-12EF16E0FC6B}" ShortID="1012554196">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A3857036-C4D7-4906-816B-1333ECCD92DC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D654A74-1002-4D7A-8A1A-98D41444DDAF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Night" ID="{A6CE8B7B-7FF0-4DF5-932C-299DAEDC30DF}" ShortID="641736208">
+													<Language>SFX</Language>
+													<AudioFile>Night.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Night" ID="{A6CE8B7B-7FF0-4DF5-932C-299DAEDC30DF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Afternoon" ID="{D3F5E5E4-6081-48CE-801F-54278D11B73B}" ShortID="309114296">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A3857036-C4D7-4906-816B-1333ECCD92DC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D654A74-1002-4D7A-8A1A-98D41444DDAF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Day" ID="{227DD8DA-65BC-4CD9-9553-E195817964D4}" ShortID="28904217">
+													<Language>SFX</Language>
+													<AudioFile>Day.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="615132054"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Day" ID="{227DD8DA-65BC-4CD9-9553-E195817964D4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Day" ID="{51819C18-497F-40DF-BDAB-9C010BAE75CE}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Night" ID="{EEB79742-122E-4074-9C50-12EF16E0FC6B}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Afternoon" ID="{D3F5E5E4-6081-48CE-801F-54278D11B73B}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Afternoon" ID="{E5B7DF42-1567-4A0B-AA46-3B09E0682E5E}"/>
+												<ItemList>
+													<ItemRef Name="Afternoon" ID="{D3F5E5E4-6081-48CE-801F-54278D11B73B}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Day" ID="{D08F386D-378C-427F-9F8E-92FFD78ECBC1}"/>
+												<ItemList>
+													<ItemRef Name="Day" ID="{51819C18-497F-40DF-BDAB-9C010BAE75CE}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="night" ID="{DE01B5A2-EEDA-4D37-86EE-992E4BDC69DA}"/>
+												<ItemList>
+													<ItemRef Name="Night" ID="{EEB79742-122E-4074-9C50-12EF16E0FC6B}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="Interior" ID="{DABEFE62-78C9-4478-A514-36A13780EA90}" ShortID="994232444">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A3857036-C4D7-4906-816B-1333ECCD92DC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="interior" ID="{2E198396-FE60-4931-B423-502BE6601694}" WorkUnitID="{7D654A74-1002-4D7A-8A1A-98D41444DDAF}"/>
+								</Reference>
+							</ReferenceList>
+						</ActorMixer>
+						<ActorMixer Name="PAD" ID="{4823AC6D-3711-4776-AE58-FBFC6CBFEE6D}" ShortID="289708728">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A3857036-C4D7-4906-816B-1333ECCD92DC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D654A74-1002-4D7A-8A1A-98D41444DDAF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="New Sound SFX" ID="{420CD678-6F90-42A6-BAF6-BF8B5C5A20CF}" ShortID="10681882">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A3857036-C4D7-4906-816B-1333ECCD92DC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D654A74-1002-4D7A-8A1A-98D41444DDAF}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="RFXs" ID="{3BE5130F-F8D8-4A6E-9930-8A069544A0AA}" ShortID="337387530">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A3857036-C4D7-4906-816B-1333ECCD92DC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D654A74-1002-4D7A-8A1A-98D41444DDAF}"/>
+								</Reference>
+							</ReferenceList>
+						</ActorMixer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

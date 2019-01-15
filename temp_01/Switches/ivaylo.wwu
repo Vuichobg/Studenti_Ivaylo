@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{78F2F597-5AF7-4C34-A7E3-CD5936C3EBB7}" SchemaVersion="85" RootDocumentID="{5FECEFEB-51BC-4EEB-B129-FE01EBCA614D}">
+	<Switches>
+		<WorkUnit Name="ivaylo" ID="{78F2F597-5AF7-4C34-A7E3-CD5936C3EBB7}" OwnerID="{5FECEFEB-51BC-4EEB-B129-FE01EBCA614D}" PersistMode="Nested">
+			<ChildrenList>
+				<SwitchGroup Name="Time_of_The_Day" ID="{49594727-DFEF-4559-BCC4-CF0575BA9457}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Day" ID="{D08F386D-378C-427F-9F8E-92FFD78ECBC1}"/>
+						<Switch Name="night" ID="{DE01B5A2-EEDA-4D37-86EE-992E4BDC69DA}"/>
+						<Switch Name="Afternoon" ID="{E5B7DF42-1567-4A0B-AA46-3B09E0682E5E}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="Time_Of_The_Day" ID="{4FC36FA1-F71D-49FF-8C67-4B14F283050D}"/>
+						<Curve Name="" ID="{D84E7AB0-8B74-4DAF-B6EE-FDF0013B028E}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>2</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>4.99099</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>4.99199</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>12.4054054054054</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>12.44595</XPos>
+									<YPos>3</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>19.98749</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>24</XPos>
+									<YPos>0</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

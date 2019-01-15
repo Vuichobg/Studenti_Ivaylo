@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{763CF673-3273-432B-98DC-DFAED79EE816}" SchemaVersion="85" RootDocumentID="{713476ED-853B-490E-B0F7-68F10A6674A1}">
+	<States>
+		<WorkUnit Name="ivaylo" ID="{763CF673-3273-432B-98DC-DFAED79EE816}" OwnerID="{713476ED-853B-490E-B0F7-68F10A6674A1}" PersistMode="Nested">
+			<ChildrenList>
+				<StateGroup Name="time_of_The_Day" ID="{3143B49C-7F1C-421B-A67D-DE6811B4A124}">
+					<ChildrenList>
+						<State Name="None" ID="{9D1C5CC6-05DB-4D3C-AA0A-DB4CEBBFB0B8}"/>
+						<State Name="day" ID="{61DBB105-1345-487B-992F-E84A0BB8596E}"/>
+						<State Name="night" ID="{98238367-3A0A-443C-952A-B0DD6E7C3AEE}"/>
+						<State Name="Afternoon" ID="{ECFF2F3D-DF0E-408B-B180-7F4472F478F2}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

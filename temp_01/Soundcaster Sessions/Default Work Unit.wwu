@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6B18AC97-0D8E-4B34-9BA8-B53219621A5D}" SchemaVersion="85">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{6B18AC97-0D8E-4B34-9BA8-B53219621A5D}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="SFX" ID="{62A8C559-336D-493E-850D-BAB9A46DC51D}">
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Time_Of_The_Day" ID="{4FC36FA1-F71D-49FF-8C67-4B14F283050D}"/>
+							<Value>12</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Ambiences" ID="{84C383B2-94A7-4972-9B9D-97A1C9B28864}">
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Time_Of_The_Day" ID="{4FC36FA1-F71D-49FF-8C67-4B14F283050D}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Afternoon" ID="{E5B7DF42-1567-4A0B-AA46-3B09E0682E5E}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

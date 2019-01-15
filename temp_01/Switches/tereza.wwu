@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{30BE0CB7-A369-410C-B36B-1BB8A1A44F25}" SchemaVersion="85" RootDocumentID="{5FECEFEB-51BC-4EEB-B129-FE01EBCA614D}">
+	<Switches>
+		<WorkUnit Name="tereza" ID="{30BE0CB7-A369-410C-B36B-1BB8A1A44F25}" OwnerID="{5FECEFEB-51BC-4EEB-B129-FE01EBCA614D}" PersistMode="Nested"/>
+	</Switches>
+</WwiseDocument>

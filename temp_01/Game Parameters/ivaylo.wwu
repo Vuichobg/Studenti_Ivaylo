@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F17A8EDB-DE44-4788-BA1C-02373990A959}" SchemaVersion="85" RootDocumentID="{C6B54B0C-9C52-41E7-A1A7-6E87D714A9D3}">
+	<GameParameters>
+		<WorkUnit Name="ivaylo" ID="{F17A8EDB-DE44-4788-BA1C-02373990A959}" OwnerID="{C6B54B0C-9C52-41E7-A1A7-6E87D714A9D3}" PersistMode="Nested">
+			<ChildrenList>
+				<GameParameter Name="Time_Of_The_Day" ID="{4FC36FA1-F71D-49FF-8C67-4B14F283050D}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="12"/>
+						<Property Name="Max" Type="Real64" Value="24"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

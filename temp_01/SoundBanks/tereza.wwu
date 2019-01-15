@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FB83BAD0-58D3-4AB6-9331-BE3EF92BD4ED}" SchemaVersion="85" RootDocumentID="{C4648771-358F-43E9-A28F-F2259D433CF3}">
+	<SoundBanks>
+		<WorkUnit Name="tereza" ID="{FB83BAD0-58D3-4AB6-9331-BE3EF92BD4ED}" OwnerID="{C4648771-358F-43E9-A28F-F2259D433CF3}" PersistMode="Nested"/>
+	</SoundBanks>
+</WwiseDocument>

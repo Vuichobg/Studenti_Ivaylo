@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B2878F66-1E5B-46BC-B1E3-9F91FA8FA080}" SchemaVersion="85">
+	<Attenuations>
+		<WorkUnit Name="Default Work Unit" ID="{B2878F66-1E5B-46BC-B1E3-9F91FA8FA080}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="ivaylo" ID="{DB214FA6-C271-45C9-BC38-BFE1E0772324}" PersistMode="Reference"/>
+				<WorkUnit Name="tereza" ID="{7CE8C62E-1212-495C-BFED-FA5EBD963A22}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Attenuations>
+</WwiseDocument>

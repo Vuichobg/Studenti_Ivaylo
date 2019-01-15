@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BFC9CF79-2788-4059-9F43-28BDA510E245}" SchemaVersion="85" RootDocumentID="{C4648771-358F-43E9-A28F-F2259D433CF3}">
+	<SoundBanks>
+		<WorkUnit Name="ivaylo" ID="{BFC9CF79-2788-4059-9F43-28BDA510E245}" OwnerID="{C4648771-358F-43E9-A28F-F2259D433CF3}" PersistMode="Nested">
+			<ChildrenList>
+				<SoundBank Name="Mission_01" ID="{C61E45A4-529A-45B9-9D7E-EFBF9046394A}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Mission_02" ID="{6B3043A1-4E16-4150-9D5C-CE7FD244081F}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
