@@ -65,6 +65,9 @@
 												<AudioFileSource Name="Day" ID="{28A68AF3-A6C1-4E73-908A-7B6D99872CEC}" ShortID="615132054">
 													<Language>SFX</Language>
 													<AudioFile>Day.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="65996248"/>
+													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -84,6 +87,9 @@
 												<AudioFileSource Name="Night" ID="{A6CE8B7B-7FF0-4DF5-932C-299DAEDC30DF}" ShortID="641736208">
 													<Language>SFX</Language>
 													<AudioFile>Night.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="527792405"/>
+													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -104,7 +110,7 @@
 													<Language>SFX</Language>
 													<AudioFile>Day.wav</AudioFile>
 													<ConvertedFileIDList>
-														<File ID="615132054"/>
+														<File ID="65996248"/>
 													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>

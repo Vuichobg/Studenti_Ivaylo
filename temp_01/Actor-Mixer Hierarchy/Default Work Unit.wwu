@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<WorkUnit Name="ivaylo" ID="{44BF66FB-EFBF-4024-BC1C-715055A775E2}" PersistMode="Reference"/>
 				<WorkUnit Name="Tereza" ID="{9C7DC478-C2CF-4361-9DF0-294C6A6CAA3A}" PersistMode="Reference"/>
+				<WorkUnit Name="ELENA" ID="{ABF110A7-2F45-4079-832D-3909AC861E1D}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
