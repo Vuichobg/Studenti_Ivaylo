@@ -136,19 +136,6 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<RandomSequenceContainer Name="amb_church_elements_sum" ID="{F651E59A-00D9-4F59-9F87-9C29D61EED5C}" ShortID="141933360">
-											<PropertyList>
-												<Property Name="RandomOrSequence" Type="int16" Value="0"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A3857036-C4D7-4906-816B-1333ECCD92DC}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D654A74-1002-4D7A-8A1A-98D41444DDAF}"/>
-												</Reference>
-											</ReferenceList>
-										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="amb_church_elements" ID="{6F82137D-B8AF-431D-A22C-20227C823E07}" ShortID="461824391">
 											<PropertyList>
 												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
@@ -906,6 +893,28 @@
 												</RandomSequenceContainer>
 											</ChildrenList>
 										</RandomSequenceContainer>
+										<Sound Name="HUGE_SPACE_PAD" ID="{E254C461-9FEB-4056-88FD-B178B40BC8E7}" ShortID="560949885">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A3857036-C4D7-4906-816B-1333ECCD92DC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D654A74-1002-4D7A-8A1A-98D41444DDAF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="HUGE_SPACE_PAD" ID="{E9E00799-AE0D-44E6-85C4-1250E7C8EBF1}" ShortID="969597396">
+													<Language>SFX</Language>
+													<AudioFile>HUGE_SPACE_PAD.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="HUGE_SPACE_PAD" ID="{E9E00799-AE0D-44E6-85C4-1250E7C8EBF1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</ActorMixer>
 							</ChildrenList>
